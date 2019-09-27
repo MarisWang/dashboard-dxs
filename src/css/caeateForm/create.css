@@ -1,0 +1,269 @@
+@charset "UTF-8";
+/**弹出框**/
+.ant-modal-content {
+    background-image: url("../../images/animatedBG.gif");
+}
+
+.ant-modal {
+    padding-bottom: 0;
+}
+
+.ant-modal-header {
+    background: rgba(0, 85, 109, 0.8);
+    border-bottom: 1px solid #03c1c4;
+}
+
+.wrap_for_create .ant-modal-body {
+    background: rgba(0, 85, 109, 0.6);
+    min-height: calc(100vh - 58px);
+}
+
+.wrap_for_popup .ant-modal-body,
+.wrap_for_popup .ant-modal-footer {
+    background: rgba(0, 85, 109, 0.6);
+    border-top: 1px solid #03c1c4;
+}
+
+.ant-modal-header .ant-modal-title {
+    color: white;
+}
+
+.ant-modal-content .ant-input {
+    border: 1px solid rgba(4, 170, 196, 0.5);
+}
+
+.create_form {
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.create_form .from_container {
+    border: 1px solid rgba(4, 170, 196, 0.5);
+    margin-bottom: 20px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.50);
+}
+
+.create_form .from_container.settingTerminal {
+    width: 48%;
+    /*min-width: 600px;*/
+}
+
+.create_form .from_container .order_list {
+    padding: 20px 30px;
+    border-top: 1px solid #009BFF;
+    border-bottom: 1px solid #009BFF;
+
+}
+
+.create_form .from_container .order_list li {
+    text-align: left;
+}
+
+.create_form h4 {
+    border-bottom: 1px solid rgba(4, 170, 196, 0.5);
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+    color: #bdbdbd;
+}
+
+.create_form p {
+    color: #c3c3c3;
+    text-align: left;
+    font-size: 12px;
+    margin-left: 170px;
+}
+
+.create_form p.list {
+    margin-left: 0;
+    padding: 0px 15px;
+}
+
+.create_form .displayflexstart {
+    margin: 10px auto;
+}
+
+.displayflexstart span.form_text {
+    width: 170px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.displayflexstart span.required::before {
+    display: inline-block;
+    margin-right: 5px;
+    color: #f5331f;
+    font-size: 14px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: '*';
+}
+
+
+.create_form .displayflexstart input,
+.create_form .displayflexstart textarea {
+    width: calc(100% - 200px);
+    background: rgba(0, 107, 145, 0.3);
+    border: 1px solid rgba(4, 170, 196, 0.5);
+    padding-left: 10px;
+}
+
+.create_form .displayflexstart input {
+    height: 31px;
+    line-height: 31px;
+}
+
+.create_form .displayflexstart textarea {
+    min-height: 100px;
+}
+
+.create_form .ant-input[disabled] {
+    color: white;
+}
+
+.create_form .displayflexstart .ant-calendar-picker > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create_form .displayflexstart .ant-calendar-picker-input {
+    width: 100%;
+}
+.displayflexend .displayflexstart .ant-calendar-picker-input {
+    width: 100%;
+}
+
+.displayflexstart .ant-select.ant-select-enabled,
+.displayflexstart .ant-select.ant-select-disabled,
+.displayflexstart input.ant-input,
+.displayflexstart .ant-calendar-picker {
+    width: calc(100% - 200px);
+}
+
+.multipleSelection .ant-select-selection__choice__remove {
+    right: -7px;
+}
+.displayflexstart .ant-calendar-picker .ant-input{
+    border: 1px solid #1890ff;
+}
+.displayflexstart .ant-select-selection--multiple .ant-select-selection__choice {
+    background: rgba(0, 80, 104, 0.8);
+    border: 1px solid #1890ff;
+}
+
+.displayflexstart .ant-select-search__field__wrap .ant-select-search__field {
+    background: transparent;
+    border: none;
+}
+
+.form-btns button {
+    background: #1890ff;
+    border: none;
+    padding: 4px 15px;
+    border-radius: 5px;
+    margin: 10px 5px;
+}
+
+.form-btns button:hover {
+    transform: none;
+    background: #007991;
+}
+
+.ant-upload button.ant-btn {
+    background-color: #007991;
+    border-color: #1890ff;
+}
+
+.create_form .ant-upload .anticon-upload {
+    color: white;
+}
+
+/**React Password Strength**/
+.ReactPasswordStrength {
+    border: 1px solid rgba(4, 170, 196, 0.5);
+}
+
+.ReactPasswordStrength.customClass {
+    width: calc(100% - 200px);
+    height: 35px;
+    background: rgba(0, 96, 119, 0.8);
+}
+
+.ReactPasswordStrength.customClass input {
+    height: 32px;
+    float: left;
+    color: white;
+    background: none;
+    border: none;
+}
+
+.customClass .ReactPasswordStrength-strength-desc {
+    position: absolute;
+    top: -6px;
+    right: 10px;
+}
+
+/**mfa**/
+.from_container .displayflexstart .qrcodeContent {
+    margin: 10px;
+}
+
+.from_container .displayflexstart img {
+    width: 200px;
+}
+
+.from_container .displayflexstart h6 {
+    color: #00a1bb;
+    line-height: 40px;
+}
+
+
+/**upload**/
+.ant-upload-list-item {
+    background: rgba(0, 123, 151, 0.8);
+    height: 32px;
+    line-height: 24px;
+    margin-top: 0;
+}
+
+.ant-upload-list-item-info {
+    padding: 4px 26px 4px 10px;
+}
+
+.ant-upload-list .anticon.anticon-paper-clip {
+    position: absolute;
+    top: 10px;
+}
+
+.ant-upload-list-item .anticon-close {
+    position: absolute;
+    top: 10px;
+    right:4px;
+}
+
+
+/**多想选择**/
+.ant-select-dropdown.ant-select-dropdown--multiple .ant-select-dropdown-menu-item{
+    padding-right:0;
+    padding-left: 30px;
+}
+
+.ant-select-dropdown.ant-select-dropdown--multiple .ant-select-dropdown-menu-item .ant-select-selected-icon{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    right:unset;
+}
+
+/**密码策略**/
+.ant-radio-group .ant-radio-disabled + span {
+    color: #d9d9d9;
+}
+
+@media screen and (max-width: 1400px) {
+    .create_form .from_container.settingTerminal {
+        width: 100%;
+    }
+}

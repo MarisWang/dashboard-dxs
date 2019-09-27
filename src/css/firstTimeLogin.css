@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.ant-col-2{
+    color: #fffaf5;
+    font-size: 16px;
+}
+.ant-col-2.selected-step{
+    color: #00c9e1;
+    font-size: 18px;
+}
+.ant-col .anticon{
+    margin:0 10px;
+}
+.progress-line{
+    border-bottom:1px solid #40a9ff ;
+}
+.wrapper .ant-row-flex .ant-col-2{
+    cursor: pointer;
+}

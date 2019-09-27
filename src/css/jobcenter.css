@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.wrapper .jobCenterCommandContent{
+    align-items: flex-start;
+}
+.wrapper .displayflexbetween .jobCenterCommand {
+    min-width: 500px;
+    min-height: 60px;
+    background: rgba(0, 107, 145, 0.3);
+    border: 1px solid rgba(4, 170, 196, 0.5);
+    padding-left: 10px;
+}

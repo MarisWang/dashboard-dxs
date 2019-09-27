@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@import "authentication/login.css";
+@import "aseets/assets.css";
+@import "ipstatus.css";
+@import "sidebar.css";
+@import "caeateForm/create.css";
+@import "accountDetails/accountDetails.css";
+@import "firstTimeLogin.css";
+@import "jobcenter.css";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    font-family: "PingFang-Regular", sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+    color: #c3c3c3;
+}
+
+h1, h2, h3, h4, h5, i, b, em, div {
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #c3c3c3;
+}
+
+i, b, em, span {
+    display: inline-block;
+    color: #c3c3c3;
+}
+
+a, a:hover, a:active, a:visited, a:link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    color: #c3c3c3;
+}
+
+input, button, select, textarea {
+    outline: none;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.displayflexcenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.displayflexbetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap row;
+}
+
+.displayflexaround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap row;
+}
+
+.displayflexstart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: wrap row;
+}
+
+.displayflexend {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-flow: wrap row;
+}
+
+.displayflexstart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: wrap row;
+}
+
+/*ant design the error message transform text to upcase*/
+.ant-message span {
+    text-transform: Capitalize !important;
+}
+
+/*修改placeholder颜色*/
+input[type=text]::-webkit-input-placeholder,
+input[type=email]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder,
+input[type=password]::-webkit-input-placeholder,
+input[type=number]::-webkit-input-placeholder { /* WebKit browsers */
+    color: #4da7ff !important;
+}
+
+input[type=text]:-moz-placeholder,
+input[type=email]:-moz-placeholder,
+input[type=number]:-moz-placeholder,
+textarea::-webkit-input-placeholder,
+input[type=password]:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #4da7ff !important;
+}
+
+input[type=text]::-moz-placeholder,
+input[type=email]::-moz-placeholder,
+input[type=number]::-moz-placeholder,
+textarea::-webkit-input-placeholder,
+input[type=password]::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #4da7ff !important;
+}
+
+input[type=text]:-ms-input-placeholder,
+input[type=email]:-ms-input-placeholder,
+input[type=number]:-ms-input-placeholder,
+textarea::-webkit-input-placeholder,
+input[type=password]:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #4da7ff !important;
+}
+.xterm-screen {
+    position: relative;
+}
+.xterm-text-layer,
+.xterm-selection-layer,
+.xterm-link-layer,
+.xterm-cursor-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.hidden-input{
+    position: relative;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+/*让input看不见，而不是直接display: none，如果直接display: none，则不生效*/
+.hidden-input .form-control{
+    position: absolute;
+    left: -1000px;
+}
+
+/**搜索框**/
+.hermes-search-input.ant-search-input-wrapper{
+    width: 220px;
+    border: 1px solid #0f8ecf;
+    border-radius: 5px;
+}
+.ant-search-input-wrapper .ant-input{
+    background: transparent;
+    border: none;
+    text-align: left;
+}
+.ant-search-input-wrapper .ant-input:focus{
+    outline:none;
+    border:none;
+}
+.ant-search-input-wrapper  .ant-search-btn{
+    background: transparent;
+    border: none;
+}
+.ant-search-input-wrapper  .ant-search-btn .anticon-search{
+    color: #fff;
+}

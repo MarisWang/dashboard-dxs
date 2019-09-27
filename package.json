@@ -1,0 +1,42 @@
+{
+  "name": "admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.20.5",
+    "axios": "^0.18.1",
+    "echarts": "^4.2.1",
+    "font-awesome": "^4.7.0",
+    "hermes-react": "^1.8.6",
+    "jquery": "^3.4.1",
+    "js-export-excel": "^1.1.2",
+    "moment": "^2.24.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-highlight-words": "^0.16.0",
+    "react-password-strength": "^2.4.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.8",
+    "xterm": "^3.14.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0"
+  }
+}

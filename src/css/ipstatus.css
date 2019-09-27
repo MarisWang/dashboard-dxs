@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.iptableStatusTabs{
+    width: 100%;
+    min-height: 300px;
+    padding: 10px 20px;
+}
+.iptableStatusTabs ul.displayflexstart{
+    border-bottom: 1px solid #007E99;
+}
+.iptableStatusTabs ul.displayflexstart li{
+    color: #C3C3C3;
+    padding:10px 20px;
+    cursor: pointer;
+}
+.iptableStatusTabs ul.displayflexstart li.activeTab{
+    color: #1890FF;
+    font-weight: bold;
+    border-bottom: 1px solid #1890FF;
+}

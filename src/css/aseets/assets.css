@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/**Asset**/
+/**树形图**/
+.wrapper .ant-table-wrapper.assetTable .ant-table {
+    width: 100% !important;
+}
+
+
+.viewTree{
+    max-height: calc(100vh - 215px);
+    overflow-y: scroll;
+}
+
+.wrapper .treeContent {
+    align-items: flex-start;
+    position: absolute;
+}
+
+.wrapper .ant-tree {
+    z-index: 100;
+    margin-right: 10px;
+}
+
+.ant-tree .editInput {
+    background: rgba(0, 107, 145, 0.3);
+    border: 1px solid rgba(4, 170, 196, 0.5);
+    padding-left: 10px;
+}
+
+.ant-tree li .ant-tree-node-content-wrapper:hover {
+    background: none;
+}
+
+ul.ant-tree li {
+    text-align: left;
+    padding: 0;
+}
+
+.ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected {
+    height: 27px;
+    background: rgba(3, 118, 158, 1);
+    padding: 1px 5px;
+}
+
+.ant-input {
+    background: rgba(0, 85, 109, 0.6);
+    color: #c3c3c3;
+}
+
+.wrapper .ant-tree-title > div > span {
+    margin-right: 10px;
+}
+
+.wrapper .ant-tree-title .anticon {
+    width: 20px;
+    color: #00b8d9;
+}
+
+/**树形图的操作**/
+.tree-opearte {
+    background: rgba(0, 68, 92, 0.9);
+    border: 1px solid #00586c;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.tree-opearte::before {
+    float: left;
+    margin-left: -10px;
+    color: #0f8ecf;
+    content: "<";
+}
+
+.tree-opearte li {
+    text-align: left;
+    line-height: 35px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.tree-opearte li.hr-line {
+    border-bottom: 1px solid #008ba4;
+}
+
+.tree-opearte li .anticon {
+    color: #00b8d3;
+    margin-right: 6px;
+}
+
+.tree-opearte li:hover {
+    background: rgba(0, 93, 120, 0.9);
+}
+
+/**可编辑的表格**/
+.editable-cell {
+    position: relative;
+}
+
+.editable-cell-value-wrap {
+    cursor: pointer;
+    height: 25px;
+}
+
+.ant-form-item input {
+    height: 25px;
+}
+
+.editable-row:hover .editable-cell-value-wrap {
+    border: 1px solid #008aa7;
+    border-radius: 4px;
+}
+
+.ant-form-item-control {
+    line-height: normal;
+}
+
+/**网域——>网关 ——> 测试连接网关**/
+.ant-modal-body .testConnectability .displayflexstart span {
+    margin-right: 10px;
+}
+
+/**右侧抽屉**/
+.ant-drawer-content, .ant-drawer-content .ant-drawer-header {
+    background: rgba(0, 68, 92, 0.8);
+}
+
+.ant-drawer-content .ant-drawer-header .ant-drawer-title {
+    color: #d6d6d6;
+}
+
+.ant-drawer-content .leftDrawer h4 {
+    text-align: left;
+}
+
+
+/**菜单选项**/
+.from_container .ant-tree-child-tree {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px !important;
+    align-items: center;
+}
+
+.from_container .ant-tree-switcher {
+    display: none !important;
+}
+
+.from_container .ant-tree-child-tree li {
+    padding: 0 15px;
+}
+
+.from_container .displayflexstart.alignItemStart {
+    align-items: flex-start;
+}
+
+.from_container .displayflexstart.alignItemStart .form_text {
+    margin-top: 7px;
+}
+
+.from_container .ant-tree span {
+    color: #c3c3c3;
+}
+
+.ant-tree-checkbox-inner {
+    background-color: #c3c3c3;
+}
+
+/**批量任务的上传**/
+#uploadfiles .file {
+    position: relative;
+    display: inline-block;
+    background: #0078a4;
+    border: 1px solid #0078a4;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #dbdbdb;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+#uploadfiles .file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+#uploadfiles .file:hover {
+    background: #099ccf;
+    border-color: #099ccf;
+    color: #dbdbdb;
+    text-decoration: none;
+}
+/**自适应**/
+@media screen and (max-width: 1360px) {
+    .viewTree .treeContent .ant-tree{
+        z-index: 1000;
+        background: rgba(0, 68, 92, 0.8);
+    }
+    .wrapper .ant-table-wrapper.assetTable{
+        width: 100% !important;
+    }
+}
+
